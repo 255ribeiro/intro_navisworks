@@ -1,7 +1,7 @@
 site_name: Introdução ao NavisWorks
 use_directory_urls: false
 
-copyright: Copyright &copy; 2022 Fernando Ferraz Ribeiro
+copyright: Copyright &copy; 2023 Fernando Ferraz Ribeiro
 
 theme:
   features:
@@ -11,8 +11,8 @@ theme:
   name: material   
   language: en-custom
   custom_dir: docs/overrides
-  favicon: figs/chart_white/icons8-doughnut-chart-96.png
-  logo: figs/chart_white/icons8-doughnut-chart-96.png
+  # favicon: figs/chart_white/icons8-doughnut-chart-96.png
+  # logo: figs/chart_white/icons8-doughnut-chart-96.png
 
 
   palette:
@@ -20,8 +20,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: red
-      accent: deep orange
+      primary: indigo
+      accent: light green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -29,15 +29,15 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
-      accent: yellow
+      primary: indigo
+      accent: light green
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
-site_url: "https://255ribeiro.github.io/infinity_ws_plotly_dash/"
-repo_url: "https://github.com/255ribeiro/infinity_ws_plotly_dash"
-repo_name: "255ribeiro/infinity_ws_plotly_dash" 
+site_url: "https://255ribeiro.github.io/intro_navisworks/"
+repo_url: "https://github.com/255ribeiro/intro_navisworks"
+repo_name: "255ribeiro/intro_navisworks" 
 
 nav:
   - Home: index.md
@@ -76,3 +76,4 @@ extra:
         link: https://www.linkedin.com/in/fernando-ferraz-ribeiro-b49a7bb0/
       - icon: fontawesome/solid/envelope
         link: mailto:ffribeiro@gmail.com
+
